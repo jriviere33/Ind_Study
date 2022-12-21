@@ -10,4 +10,4 @@
 
 - The RDX Data Expansion file contains code that will make a train and test split and create new files with synthetic data based on the train split only. This synthetic data is generated through a few different techniques such as synonym replacement, and random insertion, swapping, and deletion
 
-- The RDX Models file contains a variety of models trained on the synthetic data and tested on the real data. Each of these models is performing multilabel text prediction. The models include SVM, Logistic Regression, Naive Bayes, Decision Trees, and KNN, with SVM achieving the best performance.
+- The RDX Models file contains a variety of models trained on the synthetic data and tested on the real data. Each of these models is performing multilabel text classification. The models include SVM, Logistic Regression, Naive Bayes, Decision Trees, and KNN, with SVM achieving the best performance.
